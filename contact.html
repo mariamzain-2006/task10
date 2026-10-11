@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h3><a>EXHIBT / <span>STUDIO</span></a></h3>
+        <button class="menu-icon" onclick="toggleMenu()">☰</button>
+
+        <nav id="navbar"> 
+        
+            <ul>
+                <li>GALLERY</li>
+                <li><a href="abot.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+<section class="contact">
+    
+    <div class="text-contact">
+        <h6>Get in touch</h6>
+        <h1>Let's work together</h1>
+    </div>
+
+    <div class="lable">
+        <div class="first-part">
+            <div class="text-first">
+                <h5>Send a message</h5>
+                <p>I typically respond within two business days. For urgent editorial commissions, please include a deadline in your message.</p>
+            </div>
+
+            <div class="form-contact">
+                <div class="input-group">
+                    <label>Name *</label>
+                    <input type="text" placeholder="Your name">
+                </div>
+
+                <div class="input-group">
+                    <label>Email *</label>
+                    <input type="email" placeholder="your@email.com">
+                </div>
+
+                <div class="input-group full">
+                    <label>Enquiry type</label>
+                    <select>
+                        <option>Select a subject...</option>
+                    </select>
+                </div>
+
+                <div class="input-group full">
+                    <label>Message *</label>
+                    <textarea placeholder="Tell me about your project, timeline, and any other relevant details..."></textarea>
+                </div>
+
+                <button type="button">SEND MESSAGE</button>
+            </div>
+        </div>
+
+        <div class="second-part">
+            <div class="info">
+                <h5>Availability</h5>
+                <p class="available">● &nbsp; AVAILABLE FOR NEW PROJECTS</p>
+            </div>
+
+            <div class="info">
+                <h5>Email</h5>
+                <p><a href="mailto:hello@exhibitstudio.com">hello@exhibitstudio.com</a></p>
+            </div>
+
+            <div class="info">
+                <h5>Based in</h5>
+                <p>New York, USA<br>Chiang Mai, Thailand</p>
+            </div>
+
+            <div class="info">
+                <h5>Social</h5>
+                <p><span>INSTAGRAM</span> @exhibitstudio</p>
+                <p><span>X / TWITTER</span> @exhibitstudio</p>
+                <p><span>LINKEDIN</span> Alex Mercer</p>
+            </div>
+
+            <div class="info">
+                <h5>Response time</h5>
+                <p>Within 2 business days</p>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer>
+        <div class="first-footer">
+           <h3>Exhibit Studio</h3> 
+           <h5>Free CSS template by <a href="#">Tooplate</a>.</h5>
+           <h5>Photos via <a href="#">Lorem Picsum</a>. Free for personal & commercial use. </h5>
+        </div>
+        <div class="second-footer">
+             <ul>
+                <li><a href="index.html">GALLERY</a></li>
+                <li><a href="abot.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+<script>
+    function toggleMenu() {
+        document.getElementById("navbar").classList.toggle("active");
+    }
+</script>
+
+</body>
+</html>
